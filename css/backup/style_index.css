@@ -1,0 +1,41 @@
+body{
+margin-top:5px;
+}
+#corpo{
+width: 1024px; 
+}
+#header{
+height: 65px;
+margin:5px 5px 5px 5px;
+background-repeat:no-repeat;
+background-position:right;
+margin-right:40px;
+}
+
+#conteudo{
+background: #ffffff;
+float:left;
+width:100%;
+}
+#pagina{
+float:left;
+width:800px;
+background:#ffffff;
+margin:0 2px 2px 2px;
+}
+#menu{
+float: left;
+width: 200px;
+margin:5px 5px 5px 5px;
+background: #ffffff;
+
+}
+#footer{
+clear: left;
+width: 100%;
+color: #666666;
+font-style: normal;
+font-size: 75%;
+text-align:center;
+margin:5px 5px 5px 5px;}
+

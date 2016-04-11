@@ -1,0 +1,69 @@
+select
+{
+font-size:12px;
+/*border: 1px solid #e3f1fe;*/
+font-weight:bold;
+color: #666666;
+width:218px;
+}
+
+input[type="button"], input[type="reset"], input[type="submit"]{
+	padding: 3px 5px;
+	border: 1px solid #333333;
+	background:#333333;
+	color: #CCCCCC;
+	font-size: 10px;
+	text-transform: uppercase;
+	width:auto;
+	height:20px;
+	font-weight:bold;
+
+}
+
+input[type="button"]:hover, input[type="button"]:focus,input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus{
+	border: 1px solid #999999;
+	background: #333333;
+	color: #FFFFFF;
+}
+
+input[type="text"], input[type="password"] {
+	/*border: 1px solid #CCCCCC;*/
+	/*background: #FFFFFF;*/
+	width:215px;
+}
+
+input[type="text"]:hover, input[type="text"]:focus, input[type="password"]:hover, input[type="password"]:focus, textarea:hover, textarea:focus, select:hover{
+	background: #FFFFCC;
+}
+
+span{
+	text-align:left;
+	color: #666666;
+	font-weight:bold;
+
+}
+
+p{
+
+	font-size:15px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color: #de5706;
+	text-decoration:underline;
+
+}
+
+input.error, select.error, textarea.error{
+/*border: 2px solid red;*/
+background-color:#FFCCCC;
+}
+
+form label.error
+{
+color:#de5706;
+font-weight:bold;
+}
+
+.asterisco{
+color:#FF0000;
+}

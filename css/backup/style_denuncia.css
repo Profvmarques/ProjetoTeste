@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+
+label{
+    text-align: left;
+	width: 100px;
+	padding-right: 5px;
+	margin: 0 0 8px 0;
+	float: left;
+	clear: left;
+	display: block;
+}
+p{
+margin-left:50px;
+
+}
+/*Formulario*/
+
+form label{
+	text-align:left;
+	width: 250px;
+	padding-right: 5px;
+	margin: 0 0 8px 0;
+	float: left;
+	clear: left;
+	display: block;
+	color: #7563A5;
+}
+span{
+color:#FF0000;
+}
+form label.error
+{
+margin-left:190px;
+}
+
+select {
+line-height:10px;
+font-size:12px;
+}
+
+input, select, textarea {
+	margin-left: 5px;
+	margin-bottom: 8px;
+}
+
+
+input [type="radio"],input [type="checkbox"] {
+	margin: 2px 0 0 4px;
+}
+
+input [type="button"], input [type="reset"] {
+	margin: 2px 0 0 130px;
+}
+
+input.error, select.error, textarea.error{
+background-color:#FFCCCC;
+}
+
+br{
+clear:left;
+}
+

@@ -1,0 +1,21 @@
+@media print {
+	#imprimir{ display:none; }
+}
+
+#imprimir {
+	padding: 3px 5px;
+	border: 1px solid #333333;
+	background:#333333;
+	color: #CCCCCC;
+	font-size: 10px;
+	text-transform: uppercase;
+	width:auto;
+	height:23px;
+	font-weight:bold;
+}
+
+#imprimir:hover, #imprimir:focus {
+	border: 1px solid #999999;
+	background: #333333;
+	color: #FFFFFF;
+}

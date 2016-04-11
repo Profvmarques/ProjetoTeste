@@ -1,0 +1,44 @@
+.table
+{
+width:100%;
+border:none;
+border-collapse:separate;
+}
+
+td.titulo
+{
+text-align:center;
+background-color:#1d5a9b;
+color:#ffffff;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+text-decoration:none;
+}
+
+td.texto
+{
+background-color:#eeeeee;
+font-size:11px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-weight:bold;
+color: #666666;
+text-align:center;
+}
+
+a:link, a:visited{
+background-color:#eeeeee;
+color:#666666;
+font-size:11px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-decoration:none;
+text-align:center;
+}
+
+a:hover{
+color:#1D5A9B;
+font-size:11px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+text-decoration:none;
+text-align:center;
+}

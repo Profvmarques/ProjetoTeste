@@ -1,0 +1,114 @@
+body{ margin-top:5px; }
+			#corpo{ width: 1024px; 
+			margin:0 auto;
+			}
+			#header{
+			background-image:url(../imagens/faetec/logo_gov.jpg);
+			height: 145px;
+			margin:15px 10px;
+			background-repeat:no-repeat;
+			background-position:center;
+			}
+			
+			#conteudo{
+			background: #ffffff;
+			float:center;
+			width:100%;
+			}
+			
+			#pagina{
+			float:left;
+			/*width:800px;*/
+			background:#ffffff;
+			margin:5px 5px 5px 5px;
+			}
+			
+			
+			
+			#menu2{ /*
+			float: left;
+			width: 200px;
+			margin:5px 5px 5px 5px;
+			background: #ffffff;
+			display:inline*/
+			}
+			
+			
+			/* MENU */
+			#menu { font:16px 'calibri', Arial; margin:0 auto; width:100%; background-color:#eb1e23 !important; float:left;   }
+			ul#nav { float:left; margin:0 auto; width:100%; z-index:120; padding:0;}
+			ul#nav li { float:left; margin:0; position:relative; list-style:none;}
+			ul#nav li a { color:#FFF; display:block; float:left; line-height:45px; padding:0 24px; text-decoration:none; text-transform:uppercase; z-index:98; }
+			ul#nav li a:hover { color:#FFF; text-decoration:none; }
+			/* Sub-Menu */
+			ul#nav li ul.left { left:-50px; text-align:right; }
+			ul#nav li ul { background:#eb1e23; display:none; position:absolute; top:45px; padding:0;  z-index:98; }
+			ul#nav li ul li { width:100%; } 
+			ul#nav li ul a { line-height:30px; padding:0 10px ;  z-index:98; }
+			ul#nav li ul li:hover { background-color:#c4191d; }
+			.top_item_1 ul { width: 249px; }
+			.top_item_2 ul {  }
+			.top_item_3 ul { width:200px; }
+			.top_item_4 ul { width: 214px; }
+			.top_item_5 ul { width:204px; } 
+			
+			
+			.campo { width:100% !important; float:left; }
+			
+			.campof { float: left; margin-right: 23px !important;}
+			.campow { width: 200px; }
+			.campowx { overflow: hidden; width: 304px;}
+			
+			input, select { border: 1px solid #ccc; border-radius: 4px; padding: 2px 5px;}
+			.input-mini {  width: 60px;}
+			.input-small { width: 93px;}
+			.input-medium { width: 150px;}
+			.input-large { width: 170px;}
+			.input-xlarge { width: 270px;}
+			.input-xxlarge { width: 430px;}
+			.input-xxxlarge { width: 530px;}
+			
+			fieldset {padding: 7px 20px 10px !important;  margin:20px 0 !important;}
+			legend { font-size:14px!important; color:#666!important; line-height:normal!important;  padding: 0 10px !important; text-transform: uppercase; margin:0!important;  border:none!important; width:auto!important; }
+			
+			form { margin-top:20px; }
+			.formulario { width:640px; float:left; padding:20px 3px 20px 0; }
+			.formulario label { width: 33%; vertical-align:top; }
+			.formulario input, .formulario select { margin-bottom:10px !important; }
+			.formulario textarea { margin:13px 0;}
+			
+			.content_right { width:374px; float:left; }
+	
+			
+			.login{ background-color:#0a4e95 !important; border-radius: 10px; width:395px; }
+			.login p { color:#fff; text-align:center; text-decoration:none; font-size:15px; font-weight:bold; margin:0;  }
+			.login p b { text-transform:uppercase; }
+			.login span { color:#FFF; display:block; margin:12px 0 18px; font-size:12px; }
+			.login label { width:45px; color:#fff; line-height: 26px;}
+			.login input { padding:5px !important; height:27px !important; }
+			#btnLogin { font-size: 14px; margin: 0 0 0 269px; padding: 5px;width: 69px; }
+			
+			.info h2 { color:#900;}
+			.info ul { padding-left:26px; }
+			.info p { color:#333; text-decoration:none; margin:2px 0; font-size:12px; padding:0 0 0 14px; font-size:16px; }
+			
+			.perguntas {}
+			.perguntas h2 {color:#225e41;}
+			.perguntas li { color:#C93; }
+			.perguntas li a { color:#333;}
+			
+			.perguntas, .info { margin:46px 0; }
+			.perguntas h2, .info h2 { font-size: 24px; border-bottom: 1px solid; padding-bottom:5px; }
+			
+			.footer-dosvox { width:100%; float:left; }
+			.footer-dosvox img { width:41px; }
+			.footer-dosvox a { margin:0 10px; }
+			
+			#footer{
+			clear: left;
+			width: 100%;
+			color: #666666;
+			font-style: normal;
+			font-size: 75%;
+			text-align:center;
+			margin:5px 5px 5px 5px;}

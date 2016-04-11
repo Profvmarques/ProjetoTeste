@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* located in demo.css and creates a little calendar icon
+ * instead of a text link for "Choose date"
+ */
+a.dp-choose-date {
+	float: left;
+	width: 16px;
+	height: 16px;
+	padding: 0;
+	margin: 5px 3px 0;
+	display: block;
+	text-indent: -2000px;
+	overflow: hidden;
+	background: url(../imagens/calendar.png) no-repeat; 
+}
+a.dp-choose-date.dp-disabled {
+	background-position: 0 -20px;
+	cursor: default;
+}
+/* makes the input field shorter once the date picker code
+ * has run (to allow space for the calendar icon
+ */
+input.dp-applied {
+	width: 140px;
+	float: left;
+}
+
+/* Outros */
+
+select
+{
+font-size:12px;
+/*border: 1px solid #e3f1fe;*/
+font-weight:bold;
+color: #666666;
+}
+
+/*input[type="button"]{
+	padding: 3px 5px;
+	border: 1px solid #333333;
+	background:#333333;
+	color: #CCCCCC;
+	font-size: 10px;
+	text-transform: uppercase;
+	width:auto;
+	height:20px;
+	font-weight:bold;
+
+}
+
+input[type="button"]:hover, input[type="button"]:focus{
+	border: 1px solid #999999;
+	background: #333333;
+	color: #FFFFFF;
+}
+
+input[type="text"] {
+	/*border: 1px solid #CCCCCC;*/
+	/*background: #FFFFFF;*/
+}
+
+input[type="text"]:hover, input[type="text"]:focus{
+	background: #FFFFCC;
+}*/
+
+span{
+	text-align:left;
+	color: #666666;
+	font-weight:bold;
+
+}
+
+p{
+
+	font-size:15px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	color: #de5706;
+	text-decoration:underline;
+
+}
+
+

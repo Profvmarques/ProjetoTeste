@@ -1,0 +1,43 @@
+body{
+margin-top:5px;
+}
+#corpo{
+width: 1024px; 
+}
+#header{
+background-image:url(../../imagens/pmdc/logo_gov.jpg);
+height: 65px;
+margin:5px 5px 5px 5px;
+background-repeat:no-repeat;
+background-position:right;
+margin-right:50px;
+}
+
+#conteudo{
+background: #ffffff;
+float:center;
+width:100%;
+}
+
+#pagina{
+float:left;
+width:800px;
+background:#ffffff;
+margin:5px 5px 5px 5px;
+}
+#menu{
+float: left;
+width: 200px;
+margin:5px 5px 5px 5px;
+background: #ffffff;
+display:inline
+}
+#footer{
+clear: left;
+width: 100%;
+color: #666666;
+font-style: normal;
+font-size: 75%;
+text-align:center;
+margin:5px 5px 5px 5px;}
+
